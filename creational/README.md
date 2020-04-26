@@ -4,7 +4,7 @@
 
 | 模式 | 状态 | 描述 |
 |:----|:---: |:------|
-| [Singleton 单例模式](/creational/singleton/) | ✘ | 某个类只能生成一个实例，该类提供了一个全局访问点供外部获取该实例。 |
+| [Singleton 单例模式](/creational/singleton/) | ✔ | 某个类只能生成一个实例，该类提供了一个全局访问点供外部获取该实例。 |
 | [Prototype 原型模式](/creational/prototype/) | ✘ | 将一个对象作为原型，通过对其进行复制而克隆出多个和原型类似的新实例。 |
 | [Simple Factory 简单工厂模式](/creational/simple-factory/) | ✘ | 定义一个用于创建产品的接口，根据参数决定生产什么产品。|
 | [Factory Method 工厂方法模式](/creational/factory-method/) | ✘ | 定义一个用于创建产品的接口，由子类决定生产什么产品。 |

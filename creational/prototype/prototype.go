@@ -1,10 +1,10 @@
 package prototype
 
-// 摘抄自 go 源码 ： golang/go/src/net/http/header.go
+// 摘抄自 go 源码 ： https://github.com/golang/go/blob/release-branch.go1.14/src/net/http/header.go
 // 这里做了简化，主要体现 原型模式
 
 // 其它的kubernetes 也使用了原型模式
-// github/kubernetes/kubernetes/pkg/kubelet/cm/cpuset/cpuset.go
+// https://github.com/kubernetes/kubernetes/blob/release-1.18/pkg/kubelet/cm/cpuset/cpuset.go
 // func (s CPUSet) Clone() CPUSet { ... }
 
 type Header map[string]string
